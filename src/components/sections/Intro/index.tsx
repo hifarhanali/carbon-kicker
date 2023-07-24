@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Intro = () => {
     return (
         <div className="flex flex-col items-center justify-start mx-auto w-full">
-            <div className="flex flex-col items-center justify-start w-full">
+            <div className="flex flex-col items-center justify-start w-full h-screen md:h-full">
                 <div className="flex flex-row items-center justify-between w-full px-[3.75rem] md:px-[1px] pt-[2.75rem]">
                     <Img className="h-6 md:h-4" src="images/img_group.svg" alt="group" />
 
@@ -38,7 +38,7 @@ const Intro = () => {
                         </div>
                     </div>
                 </div>
-                <DownArrowSVG className="mt-[4.8125rem]" />
+                <DownArrowSVG className="mt-[4.8125rem] md:hidden" />
             </div>
         </div>
     )
