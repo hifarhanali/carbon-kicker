@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Button, Img, Input, Line, Text } from "components";
-
 import Subscribe from "components/sections/Subscribe";
 import Poll from "components/sections/Poll";
 import Intro from "components/sections/Intro";
