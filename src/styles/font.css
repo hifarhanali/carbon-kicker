@@ -1,0 +1,5 @@
+
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/JostRomanSemiBold.ttf"); font-family : "Jost"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/JostRomanRegular.ttf"); font-family : "Jost"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/JostRomanMedium.ttf"); font-family : "Jost"; font-weight : 500;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/WorkSansRomanRegular.ttf"); font-family : "Work Sans"; font-weight : 400;  }
