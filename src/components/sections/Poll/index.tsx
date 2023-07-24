@@ -71,6 +71,7 @@ const Poll = () => {
 
     const progress = () => {
         const p = Math.ceil(parseFloat((((currentQuestion + 1) * 100) / questions.length).toString()))
+        console.log(p)
         return p
     }
 
@@ -97,7 +98,10 @@ const Poll = () => {
 
                 <div className="relative">
                     <Line className="bg-gray-300 h-[3px] m-auto w-full" />
-                    <Line className={`absolute bg-gray-900 h-[3px] inset-y-[0] left-[0] my-auto w-[${progress()}%] w-${progress() >= 100 && "full"}`} />
+                    <Line
+                        className={`absolute bg-gray-900 h-[3px] inset-y-[0] left-[0] my-auto`}
+                        style={{ width: `${progress()}%` }}
+                    />
                 </div>
 
                 <div className="flex flex-row md:flex-col items-center justify-center w-full mt-[5rem] px-[5rem] md:px-[5px]">

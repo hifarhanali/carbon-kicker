@@ -11,7 +11,7 @@ const Subscribe = () => {
                     <div className="md:h-[575px] h-[594px] m-auto w-full">
                         <div className="absolute h-[575px] inset-[0] justify-center m-auto w-full">
                             <Img
-                                className="absolute bottom-[9%] min-h-[25.1875rem] inset-x-[0] mx-auto object-cover md:w-full"
+                                className="absolute bottom-[9%] lg:min-h-[25.1875rem] inset-x-[0] mx-auto object-cover md:w-full"
                                 src="images/img_group_gray_900.png"
                                 alt="group_One"
                             />

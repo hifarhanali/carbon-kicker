@@ -27,11 +27,6 @@ const Signup = () => {
                             <div className="bg-gray-50 flex flex-col font-jost gap-[25px] items-center justify-start mt-[4.375rem] px-[6.5rem] py-[4.75rem] md:px-10 sm:px-5 rounded-[40px] w-full">
                                 <SubscribeForm />
                             </div>
-                            <Img
-                                className="absolute min-h-[41rem] left-[6.5%] object-cover top-[14rem] xl:top-[25rem] w-[32%] md:hidden"
-                                src="images/astronaut.png"
-                                alt="astronautOne"
-                            />
                             <div className="flex flex-row font-jost gap-[34px] items-center justify-center mt-[4.0625rem] w-full">
                                 <Text
                                     className="text-[1.5rem] text-gray-900 tracking-[-0.48px]"
@@ -54,6 +49,14 @@ const Signup = () => {
                 src="images/leaf_4.png"
                 alt="leaf002motionbl"
             />
+
+            <div className="absolute inset-y-[21rem] my-auto pb-[168px] left-[7.1rem] w-[32%] sm:w-full md:hidden">
+                <Img
+                    className="absolute min-h-[41rem] object-cover  md:hidden"
+                    src="images/astronaut.png"
+                    alt="astronautOne"
+                />
+            </div>
 
             <div className="absolute inset-y-[0] my-auto pb-[168px] right-[0] w-[34%] sm:w-full md:hidden">
                 <Img

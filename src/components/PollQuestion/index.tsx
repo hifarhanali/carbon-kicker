@@ -24,7 +24,7 @@ export interface IPollQuestionProps {
 
 const PollQuestion: React.FC<IPollQuestionProps> = ({ question, className = "", onNext = () => { } }) => {
     return (
-        <div className={`flex flex-col items-start justify-start w-[471px] md:w-full ml-[5.5625rem] md:ml-0 ${className}`}>
+        <div className={`flex flex-col items-start justify-start w-[29.5rem] md:w-full ml-[5.5625rem] md:ml-0 ${className}`}>
             <Text
                 className="leading-[38.00px] sm:text-2xl md:text-[26px] text-[28px] text-gray-900 tracking-[-0.56px] w-[92%] sm:w-full"
                 size="txtJostRomanMedium28"

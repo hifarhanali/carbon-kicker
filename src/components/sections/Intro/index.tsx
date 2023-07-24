@@ -16,7 +16,7 @@ const Intro = () => {
                     </Link>
                 </div>
                 <div className="flex md:flex-col flex-row items-start justify-between w-full mt-[10rem] md:mt-0">
-                    <div className="flex flex-col items-start justify-start w-[45%] md:w-full mt-[6.5rem] ml-[7.06rem] mr-[3rem] md:mx-[0px]">
+                    <div className="flex flex-col items-start justify-start w-[50rem] md:w-full mt-[6.5rem] ml-[7.00rem] mr-[3rem] md:mx-[0px]">
                         <Text
                             className="leading-[60px] text-[2.6875rem] font-[400] text-[#0B103] tracking-[-1px] w-full"
                             size="txtJostRomanRegular50"
@@ -28,17 +28,17 @@ const Intro = () => {
                             know more
                         </Link>
                     </div>
-                    <div className="flex flex-col w-[60%] md:hidden justify-start">
+                    <div className="flex flex-col w-[70rem] md:hidden justify-start">
                         <div className="relative w-full h-full">
                             <Img
-                                className="w-full min-h-[26.6875rem] object-cover"
+                                className="w-full lg:min-h-[26.6875rem] object-cover"
                                 src="images/bottle.png"
                                 alt="bottle"
                             />
                         </div>
-                        <DownArrowSVG className="mt-[4.8125rem]" />
                     </div>
                 </div>
+                <DownArrowSVG className="mt-[4.8125rem]" />
             </div>
         </div>
     )

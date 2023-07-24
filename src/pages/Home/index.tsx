@@ -11,7 +11,7 @@ import Footer from "components/sections/Footer";
 const Home: React.FC = () => {
   return (
     <>
-      <div className="bg-white-A700 relative flex flex-col font-jost items-end justify-endw-full overflow-x-hidden sm:px-[1rem] md:px-[3rem]">
+      <div className="bg-white-A700 relative flex flex-col font-jost items-end justify-endw-full overflow-x-hidden sm:px-[1rem] md:px-[4rem]">
         <div className="flex flex-col items-center w-full">
 
           {/* SECTION 1 */}
