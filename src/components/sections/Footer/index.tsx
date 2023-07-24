@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className="flex flex-col items-center justify-start w-full">
             <Text
-                className="absolute bottom-[1.25rem] text-center text-gray-900 text-sm tracking-[-0.28px]"
+                className="absolute bottom-[1.25rem] text-center text-gray-900 text-sm tracking-[-0.28px] font-worksans"
                 size="txtWorkSansRomanRegular14"
             >
                 CarbonKicker - copyright © 2023
